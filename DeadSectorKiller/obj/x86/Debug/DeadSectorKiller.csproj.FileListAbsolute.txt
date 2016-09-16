@@ -1,0 +1,24 @@
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\bin\Debug\DeadSectorKiller.pdb
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Properties.Resources.resources
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csproj.GenerateResource.Cache
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.exe
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.pdb
+C:\Users\vipuhov\AppData\Local\Temporary Projects\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Form1.resources
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.exe
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.pdb
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.pdb
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Form1.resources
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Properties.Resources.resources
+C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.exe
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.pdb
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.pdb
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Form1.resources
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Properties.Resources.resources
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.ScanBox.resources
+C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe.config

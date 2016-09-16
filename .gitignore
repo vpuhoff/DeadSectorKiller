@@ -7,7 +7,10 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
+DeadSectorKiller/DeadSectorKiller/obj/
+DeadSectorKiller/DeadSectorKiller/Bin/
+DeadSectorKiller\DeadSectorKiller\obj\
+DeadSectorKiller\DeadSectorKiller\bin\
 # Windows Installer files
 *.cab
 *.msi
@@ -45,3 +48,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.exe
+DeadSectorKiller/bin/Debug/DeadSectorKiller.rar
+*.pdb
+*.Cache
