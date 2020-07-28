@@ -107,7 +107,6 @@ namespace DeadSectorKiller
                         catch (Exception ee)
                         {
                             cntn = j;
-                            break;
                         }
                     }
                     

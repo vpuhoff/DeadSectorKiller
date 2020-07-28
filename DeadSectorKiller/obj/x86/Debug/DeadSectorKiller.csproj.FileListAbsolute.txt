@@ -22,3 +22,13 @@ C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\
 C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csproj.GenerateResource.Cache
 C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.ScanBox.resources
 C:\Users\Виталий\Desktop\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe.config
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe.config
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.exe
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\bin\Debug\DeadSectorKiller.pdb
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Form1.resources
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.Properties.Resources.resources
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.ScanBox.resources
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.exe
+C:\Users\Admin\Documents\DeadSectorKiller\DeadSectorKiller\obj\x86\Debug\DeadSectorKiller.pdb

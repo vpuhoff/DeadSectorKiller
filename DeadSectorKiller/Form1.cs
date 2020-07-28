@@ -355,7 +355,7 @@ namespace DeadSectorKiller
        {
            performanceCounter1.InstanceName = selectedDrive[0].ToString() + ":";
            performanceCounter1.NextSample();
-           scanBox1.StartScan(selectedDrive,100);
+           scanBox1.StartScan(selectedDrive,10000);
            button1.Visible = false;
            timer2.Enabled = true;
        }
