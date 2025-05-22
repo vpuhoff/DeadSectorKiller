@@ -790,64 +790,60 @@ def main(argv=None):
                     fill_percentage=args.fill_percentage
                 )
 
-                # Initialize lists for integrity check results
-                healthy_files = []
-                bad_files_with_errors = []
+            # Initialize lists for integrity check results
+            healthy_files = []
+            bad_files_with_errors = []
 
-                # Add files that had write errors directly to bad_files_with_errors
-                for err_file, err_msg in write_errors:
-                    bad_files_with_errors.append((err_file, f"Failed during creation: {err_msg}"))
+            # Add files that had write errors directly to bad_files_with_errors
+            for err_file, err_msg in write_errors:
+                bad_files_with_errors.append((err_file, f"Failed during creation: {err_msg}"))
 
-                if created_files:
-                    print("\n--- Starting Integrity Check for Successfully Created Filler Files ---")
-                    for f_path in created_files:
-                        # Skip check if file was already marked bad due to write error, though
-                        # `created_files` should ideally not contain them if `fill_free_space`
-                        # excludes them from its `created_files_list` upon error.
-                        # Assuming `created_files` are those believed to be successfully written.
-                        is_ok, message = check_file_integrity(f_path)
-                        if is_ok:
-                            healthy_files.append(f_path)
-                        else:
-                            bad_files_with_errors.append((f_path, message))
-                
-                print("\n--- Integrity Check Summary ---")
-                if healthy_files:
-                    print(f"  Healthy files ({len(healthy_files)}):")
-                    for f_path in healthy_files:
-                        print(f"    - {f_path}")
-                else:
-                    print("  No healthy filler files found or created.")
-
-                if bad_files_with_errors:
-                    print(f"\n  Bad or Errored files ({len(bad_files_with_errors)}):")
-                    for f_path, err_msg in bad_files_with_errors:
-                        print(f"    - File: {f_path}, Error: {err_msg}")
-                else:
-                    print("  No bad or errored files identified (this includes files that failed during creation).")
-
-                # --- Process Filler Files (Retention/Deletion) ---
-                print("\n--- Processing Filler Files (Retention/Deletion) ---") # Added explicit print here
-                retained_info, deleted_count = process_filler_files(
-                    quarantine_dir_path=quarantine_dir, 
-                    healthy_files=healthy_files,
-                    bad_files_with_errors=bad_files_with_errors
-                )
-
-                # --- Retention/Deletion Summary ---
-                print("\n--- Retention/Deletion Summary ---")
-                print(f"  Number of healthy files deleted: {deleted_count}")
-                if retained_info:
-                    print("  Files retained in quarantine due to errors:")
-                    for f_path, err_msg in retained_info:
-                        print(f"    - {f_path}: Reason: {err_msg}")
-                else:
-                    print("  No files were quarantined.")
-                print(f"  Quarantine directory: {quarantine_dir}")
-
+            if created_files:
+                print("\n--- Starting Integrity Check for Successfully Created Filler Files ---")
+                for f_path in created_files:
+                    # Skip check if file was already marked bad due to write error, though
+                    # `created_files` should ideally not contain them if `fill_free_space`
+                    # excludes them from its `created_files_list` upon error.
+                    # Assuming `created_files` are those believed to be successfully written.
+                    is_ok, message = check_file_integrity(f_path)
+                    if is_ok:
+                        healthy_files.append(f_path)
+                    else:
+                        bad_files_with_errors.append((f_path, message))
+            
+            print("\n--- Integrity Check Summary ---")
+            if healthy_files:
+                print(f"  Healthy files ({len(healthy_files)}):")
+                for f_path in healthy_files:
+                    print(f"    - {f_path}")
             else:
-                print(f"  Error: Could not prepare quarantine directory. Aborting fill process for {args.isolate_sectors}.")
+                print("  No healthy filler files found or created.")
 
+            if bad_files_with_errors:
+                print(f"\n  Bad or Errored files ({len(bad_files_with_errors)}):")
+                for f_path, err_msg in bad_files_with_errors:
+                    print(f"    - File: {f_path}, Error: {err_msg}")
+            else:
+                print("  No bad or errored files identified (this includes files that failed during creation).")
+
+            # --- Process Filler Files (Retention/Deletion) ---
+            print("\n--- Processing Filler Files (Retention/Deletion) ---") # Added explicit print here
+            retained_info, deleted_count = process_filler_files(
+                quarantine_dir_path=quarantine_dir, 
+                healthy_files=healthy_files,
+                bad_files_with_errors=bad_files_with_errors
+            )
+
+            # --- Retention/Deletion Summary ---
+            print("\n--- Retention/Deletion Summary ---")
+            print(f"  Number of healthy files deleted: {deleted_count}")
+            if retained_info:
+                print("  Files retained in quarantine due to errors:")
+                for f_path, err_msg in retained_info:
+                    print(f"    - {f_path}: Reason: {err_msg}")
+            else:
+                print("  No files were quarantined.")
+            print(f"  Quarantine directory: {quarantine_dir}")
         else:
             parser.print_help()
             # print("\nDefaulting to listing disks as no specific action was chosen:")
