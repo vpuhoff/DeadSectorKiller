@@ -52,3 +52,5 @@ Temporary Items
 DeadSectorKiller/bin/Debug/DeadSectorKiller.rar
 *.pdb
 *.Cache
+
+*.pyc

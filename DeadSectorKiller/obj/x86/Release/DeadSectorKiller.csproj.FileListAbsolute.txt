@@ -1,3 +1,0 @@
-C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Release\DeadSectorKiller.Form1.resources
-C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Release\DeadSectorKiller.Properties.Resources.resources
-C:\Users\vipuhov\Desktop\Разработки\DeadSectorKiller\DeadSectorKiller\obj\x86\Release\DeadSectorKiller.csproj.GenerateResource.Cache
